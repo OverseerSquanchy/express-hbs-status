@@ -1,0 +1,13 @@
+
+<h1>
+    {{#if status}}
+        Working From Home
+    {{else}}
+        In Office
+    {{/if}}
+</h1>
+<form action="/toggle" method="post">
+    <button type="submit">
+        Toggle Status
+    </button>
+</form>
